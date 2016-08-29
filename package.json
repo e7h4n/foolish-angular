@@ -1,0 +1,16 @@
+{
+  "name": "foolish-angular",
+  "version": "1.0.0",
+  "description": "Compile angular html partial into one template.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "author": "perfectworks<perfectworks@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0"
+  }
+}
