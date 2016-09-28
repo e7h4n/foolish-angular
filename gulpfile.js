@@ -5,8 +5,8 @@
 var gulp = require('gulp');
 var templateCache = require('gulp-angular-templatecache');
 var path = require('path');
-var projectDirectory = path.basename(process.cwd());
-var projectName = projectDirectory.replace(/[\-_]/g, '.');
+var projectDirectory = process.cwd();
+var projectName = require(path.resolve(projectDirectory, 'package.json')).name.replace(/^.*\//g, '').replace(/-/g, '.');
 
 gulp.task('default', function () {
     gulp.src([
