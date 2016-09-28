@@ -1,6 +1,6 @@
 {
   "name": "foolish-angular",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Compile angular html partial into one template.js.",
   "main": "index.js",
   "scripts": {
